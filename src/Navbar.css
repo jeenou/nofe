@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+/* Base navbar styles */
+.navbar {
+    background-color: white;
+    color: #282c34;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px; /* Adjusted padding for spacing */
+  }
+  
+  .navbar-brand {
+    margin-right: auto; /* Push the brand label to the left */
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .navbar-nav li {
+    margin: 0 15px; /* Adjust margin to control link spacing */
+  }
+  
+  .navbar-nav a {
+    color: #282c34;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-nav a:hover {
+    color: #61dafb;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .navbar-brand {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navbar-nav li {
+      margin: 10px 0;
+    }
+  
+    .navbar-nav a {
+      font-size: 1rem;
+    }
+  }
+  

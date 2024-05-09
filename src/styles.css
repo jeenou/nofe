@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Base styles for the carousel banner */
+.carousel-banner {
+    width: 70%; /* Adjust this value to control how much of the inner background shows */
+    max-width: 800px; /* Optional maximum width */
+    margin: 0 auto 1rem;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+  /* Base styles for the overlay image */
+  .overlay-image {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-width: 100%;
+    height: auto;
+    z-index: 3; /* Ensure the overlay is above the carousel images */
+  }
+  
+  @media (max-width: 599px) {
+    .overlay-image {
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .overlay-image {
+      max-width: 80%;
+      max-height: 100px;
+    }
+  }
+  

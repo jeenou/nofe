@@ -1,5 +1,17 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+}
+
 .App {
   text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .App-logo {
@@ -14,14 +26,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgba(40, 44, 52, 0.8); /* Added transparency */
+  min-height: 100vh; /* Adjust height to ensure enough space */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px 0;
+  position: relative; /* Added for positioning */
 }
 
 .App-link {
@@ -34,5 +48,40 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .App {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .App-logo {
+    height: 30vmin;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+    padding: 10px 0;
+  }
+
+  .App-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-logo {
+    height: 25vmin;
+  }
+
+  .App-header {
+    font-size: calc(7px + 1.5vmin);
+  }
+
+  .App-link {
+    font-size: 0.8rem;
   }
 }
