@@ -1,68 +1,43 @@
-/* Navbar.css */
-
-/* Base navbar styles */
 .navbar {
-    background-color: white;
-    color: #282c34;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px 20px; /* Adjusted padding for spacing */
-  }
-  
-  .navbar-brand {
-    margin-right: auto; /* Push the brand label to the left */
-  }
-  
-  .navbar-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-  }
-  
-  .navbar-nav li {
-    margin: 0 15px; /* Adjust margin to control link spacing */
-  }
-  
-  .navbar-nav a {
-    color: #282c34;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  .navbar-nav a:hover {
-    color: #61dafb;
-  }
-  
-  /* Responsive styles */
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-    }
-  
-    .navbar-brand {
-      margin-bottom: 10px;
-    }
-  
-    .navbar-nav {
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-    }
-  
-    .navbar-nav li {
-      margin: 10px 0;
-    }
-  
-    .navbar-nav a {
-      font-size: 1rem;
-    }
-  }
-  
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin-bottom: 10px; /* Small bottom margin */
+  display: flex; /* Ensure navbar content is flexbox */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.navbar-brand {
+  color: #f00; /* Red color for links */
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+  position: absolute; /* Position the brand absolutely */
+  left: 20px; /* Adjust as needed to align with padding */
+}
+
+.navbar-brand:hover {
+  color: #fff; /* White text when hovered */
+}
+
+.navbar-nav {
+  display: flex; /* Ensure navbar links are flexbox */
+  align-items: center; /* Align items vertically in the navbar */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px; /* Adjust spacing between nav items */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #f00; /* Red color for links */
+  text-decoration: none;
+  font-size: 4rem; /* Keep the font size as specified */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* White text when hovered */
+}

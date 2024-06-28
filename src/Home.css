@@ -1,27 +1,11 @@
 /* Home.css */
 
 .home {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .home h1 {
-    font-size: 2.5rem;
-  }
-  
-  .home p {
-    font-size: 1.2rem;
-  }
-  
-  @media (max-width: 768px) {
-    .home h1 {
-      font-size: 2rem;
-    }
-  
-    .home p {
-      font-size: 1rem;
-    }
-  }
-  
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin: 10px 0; /* Minimal margin */
+  font-family: 'HelmswaldPost', Arial, sans-serif; /* Use the custom font for h1 */
+}
