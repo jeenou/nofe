@@ -5,9 +5,8 @@ import './Navbar.css'; // Import your Navbar styles
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top"> {/* Added fixed-top class */}
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">YourBrand</Link>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mb-2 mb-lg-0">
@@ -19,6 +18,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/pageohjelma">Ohjelma</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/pageraq">RAQ</Link> {/* RAQ link */}
             </li>
           </ul>
         </div>

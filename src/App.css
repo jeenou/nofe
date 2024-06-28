@@ -1,5 +1,4 @@
 /* App.css */
-@import url('./fonts.css'); /* Import the fonts.css file */
 
 body, html, #root, .App {
   background-color: black;
@@ -8,6 +7,7 @@ body, html, #root, .App {
   padding: 0;
   height: 100%;
   font-family: 'Colchester', Arial, sans-serif; /* Default font for body */
+  overflow: hidden; /* Hide both vertical and horizontal scrollbars */
 }
 
 .App {
@@ -16,41 +16,74 @@ body, html, #root, .App {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+  position: relative; /* Ensure relative positioning for child elements */
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+  margin-top: 120px; /* Adjust this value to position the logo below the navbar */
+  position: relative; /* Keep it within the document flow */
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Ensure content starts from the top */
-  margin-top: 10px; /* Adjust top margin if needed */
   flex-grow: 1;
+  width: 100%; /* Ensure content takes up full width */
+  max-width: 100%; /* Ensure content doesn't exceed viewport width */
+  padding: 0px; /* Example: Add padding around content */
+  box-sizing: border-box; /* Ensure padding is included in width */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 
-.logo {
-  margin-top: 5px;
-  width: 400px;
-  height: auto;
+.content-block {
+  max-width: 1000px; /* Adjust as needed for your layout */
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-align: justify;
 }
 
 .home-pic {
-  margin-top: 5px;
-  width: 800px;
+  margin-top: 20px; /* Adjust top margin if needed */
+  max-width: 100%; /* Ensure images are responsive */
   height: auto;
 }
 
+.dance-pic {
+  margin-top: 20px; /* Adjust top margin if needed */
+  width: 100%;
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+}
+
+.text-container {
+  text-align: center; /* Center text elements horizontally */
+}
+
 .big-text-white {
-  color: #fff;
-  font-size: 5rem; /* Adjust the font size as needed */
-  margin-top: 20px; /* Adjust the spacing between the logo and text */
+  font-size: 6rem; /* Adjust the font sizes as needed */
+  margin-top: 0; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
 }
 
 .big-text-red {
   color: red;
-  font-size: 5rem; /* Adjust the font size as needed */
-  margin-top: 20px; /* Adjust the spacing between the logo and text */
+  font-size: 6rem; /* Adjust the font size as needed */
+  margin-top: 0; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
 }
@@ -58,9 +91,46 @@ body, html, #root, .App {
 .middle-text-grey {
   color: grey;
   font-size: 4rem; /* Adjust the font size as needed */
-  margin-top: 20px; /* Adjust the spacing between the logo and text */
+  margin-top: 0; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
 }
 
-/* Additional global styles can be placed here */
+.middle-text-red {
+  color: red;
+  font-size: 4rem; /* Adjust the font size as needed */
+  margin-top: 0; /* Adjust the spacing between elements */
+  font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+}
+
+/* Override scrollbar styles to hide them */
+/* For WebKit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.festival-info {
+  padding: 20px;
+  color: white;
+  line-height: 1.5;
+}
+
+.festival-info h2 {
+  color: red;
+  margin-top: 20px;
+}
+
+.festival-info p,
+.festival-info ul {
+  margin-bottom: 10px;
+}
+
+.festival-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
