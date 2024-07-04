@@ -41,6 +41,7 @@ body, html, #root, .App {
   max-width: 400px;
   height: auto;
   margin-top: 10px; /* Adjust this value to position the logo below the navbar */
+  margin-bottom: 30px;
   position: relative; /* Keep it within the document flow */
 }
 
