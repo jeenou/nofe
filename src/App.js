@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import PageHome from "./PageHome";
 import PageFestival from "./PageFestival";
 import PageOhjelma from "./PageOhjelma";
-import PageIlmo from "./PageIlmo"; // Ensure this matches the filename exactly
+import PageIlmo from "./Pageilmo"; // Ensure this matches the filename exactly
 import "./App.css"; // Import your global styles
 
 const App = () => {

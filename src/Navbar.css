@@ -1,21 +1,21 @@
+/* Navbar.css */
 .navbar {
   background-color: #000; /* Black background */
   color: #fff; /* White text */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
-  margin-bottom: 10px; /* Small bottom margin */
+  margin-top: 40px;
+  margin-bottom: 40px; /* Small bottom margin */
   display: flex; /* Ensure navbar content is flexbox */
-  justify-content: center; /* Center the content horizontally */
+  justify-content: space-between; /* Distribute space evenly */
   align-items: center; /* Center the content vertically */
 }
 
 .navbar-brand {
   color: #f00; /* Red color for links */
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 6rem; /* Base font size */
   transition: color 0.3s ease; /* Smooth transition for color change */
-  position: absolute; /* Position the brand absolutely */
-  left: 20px; /* Adjust as needed to align with padding */
 }
 
 .navbar-brand:hover {
@@ -34,10 +34,48 @@
 .navbar-nav .nav-item .nav-link {
   color: #f00; /* Red color for links */
   text-decoration: none;
-  font-size: 4rem; /* Keep the font size as specified */
+  font-size: 6rem; /* Base font size */
   transition: color 0.3s ease; /* Smooth transition for color change */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* White text when hovered */
+}
+
+/* Hide the navbar and show the dropdown menu on smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    display: none; /* Hide the navbar on smaller screens */
+  }
+
+  .dropdown-menu {
+    display: block; /* Show the dropdown menu on smaller screens */
+  }
+}
+
+/* Default style for the dropdown menu (hidden by default) */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  position: fixed;
+  top: 60px; /* Adjust based on your needs */
+  left: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-menu .nav-item {
+  padding: 10px 20px; /* Adjust padding for dropdown items */
+}
+
+.dropdown-menu .nav-item .nav-link {
+  color: #f00; /* Red color for links */
+  text-decoration: none;
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.dropdown-menu .nav-item .nav-link:hover {
   color: #fff; /* White text when hovered */
 }

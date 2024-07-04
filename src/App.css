@@ -1,5 +1,12 @@
 /* App.css */
 
+/* Font Face */
+@font-face {
+  font-family: 'Colchester';
+  src: url('/src/fonts/Colchester.ttf') format('truetype');
+}
+
+/* Global Styles */
 body, html, #root, .App {
   background-color: black;
   color: white;
@@ -28,7 +35,8 @@ body, html, #root, .App {
 }
 
 .logo {
-  width: 400px;
+  width: 80%; /* Make logo responsive */
+  max-width: 400px;
   height: auto;
   margin-top: 120px; /* Adjust this value to position the logo below the navbar */
   position: relative; /* Keep it within the document flow */
@@ -45,7 +53,6 @@ body, html, #root, .App {
   box-sizing: border-box; /* Ensure padding is included in width */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
-
 
 .content-block {
   max-width: 1000px; /* Adjust as needed for your layout */
@@ -153,4 +160,28 @@ body, html, #root, .App {
 .festival-info ul {
   list-style-type: disc;
   padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .big-text-white,
+  .day-text-white,
+  .big-text-red,
+  .middle-text-grey,
+  .middle-text-white,
+  .middle-text-red {
+    font-size: 2.5rem; /* Reduce font sizes for smaller screens */
+  }
+
+  .logo {
+    width: 100%; /* Make logo responsive */
+    max-width: 300px; /* Limit max width on smaller screens */
+  }
+
+  .navbar {
+    height: 60px; /* Adjust navbar height for smaller screens */
+  }
+
+  .content-block {
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
 }
