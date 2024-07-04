@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nofe/static/css/main.533b5b83.css",
+    "main.css": "/nofe/static/css/main.16e05251.css",
     "main.js": "/nofe/static/js/main.ed30cfad.js",
     "static/js/787.74e52389.chunk.js": "/nofe/static/js/787.74e52389.chunk.js",
     "static/media/Colchester.ttf": "/nofe/static/media/Colchester.b6eec102c4e8888191e1.ttf",
     "index.html": "/nofe/index.html",
-    "main.533b5b83.css.map": "/nofe/static/css/main.533b5b83.css.map",
+    "main.16e05251.css.map": "/nofe/static/css/main.16e05251.css.map",
     "main.ed30cfad.js.map": "/nofe/static/js/main.ed30cfad.js.map",
     "787.74e52389.chunk.js.map": "/nofe/static/js/787.74e52389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.533b5b83.css",
+    "static/css/main.16e05251.css",
     "static/js/main.ed30cfad.js"
   ]
 }
