@@ -36,24 +36,22 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {isDropdownOpen && (
-        <div className="dropdown-menu">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/" onClick={toggleDropdown}>Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/pagefestival" onClick={toggleDropdown}>Festivaali</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/pageohjelma" onClick={toggleDropdown}>Ohjelma</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/pageilmo" onClick={toggleDropdown}>Ilmoittautuminen</Link>
-            </li>
-          </ul>
-        </div>
-      )}
+      <div className={`dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/" onClick={toggleDropdown}>Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/pagefestival" onClick={toggleDropdown}>Festivaali</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/pageohjelma" onClick={toggleDropdown}>Ohjelma</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/pageilmo" onClick={toggleDropdown}>Ilmoittautuminen</Link>
+          </li>
+        </ul>
+      </div>
     </>
   );
 };

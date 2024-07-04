@@ -79,3 +79,8 @@
 .dropdown-menu .nav-item .nav-link:hover {
   color: #fff; /* White text when hovered */
 }
+
+/* Ensure dropdown menu is visible when opened */
+.dropdown-menu.open {
+  display: block;
+}
