@@ -85,7 +85,7 @@ body, html, #root, .App {
 }
 
 .big-text-white {
-  font-size: 6rem; /* Adjust the font sizes as needed */
+  font-size: 8rem; /* Adjust the font sizes as needed */
   margin-top: 0; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
@@ -100,7 +100,7 @@ body, html, #root, .App {
 
 .big-text-red {
   color: red;
-  font-size: 6rem; /* Adjust the font size as needed */
+  font-size: 8rem; /* Adjust the font size as needed */
   margin-top: 40px; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
@@ -175,6 +175,7 @@ body, html, #root, .App {
   .logo {
     width: 100%; /* Make logo responsive */
     max-width: 300px; /* Limit max width on smaller screens */
+    margin-top: 20px; /* Reduce top margin for logo on mobile */
   }
 
   .navbar {
@@ -182,7 +183,7 @@ body, html, #root, .App {
   }
 
   .content-block {
-    font-size: 1.5rem; /* Adjust font size for better readability */
+    font-size: 1.4rem; /* Slightly reduce base font size for better readability */
     text-align: left; /* Change text alignment for mobile */
     margin-bottom: 60px; /* Ensure space at the bottom of the content */
   }

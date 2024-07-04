@@ -11,7 +11,7 @@ const PageIlmo = () => {
       />
       <div className="content-block text-container">
         <p className="big-text-white">
-          <strong>Ilmoittautuminen aukeaa<br /> su 7.7. klo 7:07 pm</strong>
+          Ilmoittautuminen aukeaa<br /> su 7.7. klo 7:07 pm
         </p>
       </div>
     </div>
