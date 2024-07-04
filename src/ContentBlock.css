@@ -1,6 +1,6 @@
 /* ContentBlock.css */
 .content-block {
-    max-width: 800px; /* Maximum width for the content */
+    max-width: 1000px; /* Maximum width for the content */
     margin: 0 auto; /* Center the block horizontally */
     padding: 20px; /* Padding inside the block */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */

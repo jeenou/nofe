@@ -14,6 +14,7 @@ const PageIlmo = () => {
           Ilmoittautuminen aukeaa<br /> su 7.7. klo 7:07 pm
         </p>
       </div>
+      <p>Ilmoittautumislinkki julkistetaan tällä sivulla.</p>
     </div>
   );
 };
