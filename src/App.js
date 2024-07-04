@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import PageHome from "./PageHome";
 import PageFestival from "./PageFestival";
 import PageOhjelma from "./PageOhjelma";
-import PageRAQ from "./PageRAQ"; // Import the new PageRAQ component
+import PageIlmo from "./Pageilmo";
 import "./App.css"; // Import your global styles
 
 const App = () => {
@@ -13,18 +13,13 @@ const App = () => {
     <Router>
       <div className="App">
         <Navbar className="navbar" />
-        <img
-          src={`${process.env.PUBLIC_URL}/pictures/nofelogo.svg`}
-          alt="Logo"
-          className="logo"
-        />
         <div className="content">
           <div className="content-block">
             <Routes>
               <Route path="/" element={<PageHome />} /> {/* Default route */}
               <Route path="/pagefestival" element={<PageFestival />} />
               <Route path="/pageohjelma" element={<PageOhjelma />} />
-              <Route path="/pageraq" element={<PageRAQ />} /> {/* New route for PageRAQ */}
+              <Route path="/pageilmo" element={<PageIlmo />} /> {/* New route for PageRAQ */}
               {/* Additional routes */}
             </Routes>
           </div>

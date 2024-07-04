@@ -28,11 +28,11 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.9757808"
-     inkscape:cx="194.7388"
-     inkscape:cy="109.55108"
+     inkscape:cx="194.90683"
+     inkscape:cy="109.88713"
      inkscape:window-width="1718"
      inkscape:window-height="1368"
-     inkscape:window-x="-7"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
@@ -313,11 +313,6 @@
        x="0"
        y="0" />
     <pattern
-       inkscape:collect="always"
-       xlink:href="#pattern12206"
-       id="pattern8"
-       patternTransform="matrix(3,0,0,3,200,585)" />
-    <pattern
        patternUnits="userSpaceOnUse"
        width="10"
        height="5"
@@ -332,19 +327,6 @@
          style="opacity:1;stroke:none;stroke-width:4.8561;stroke-linecap:square;paint-order:stroke markers fill;stop-color:#000000"
          d="M 5,5 C 5,2 7,0 10,0 10,3 8,5 5,5 Z M 0,0 C 0,3 2,5 5,5 5,2 3,0 0,0 Z" />
     </pattern>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter6"
-       x="-0.065487181"
-       y="-0.04578712"
-       width="1.1309744"
-       height="1.0915742">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.2570594"
-         id="feGaussianBlur6" />
-    </filter>
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern12206"
@@ -660,116 +642,6 @@
       <rect
          style="fill:#241c1c;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
          id="rect54-6-28"
-         width="2.3117182"
-         height="1.9560692"
-         x="60.068447"
-         y="101.63049" />
-    </g>
-    <g
-       id="g2-5-8"
-       transform="matrix(0,0.95344487,0.77117146,0,-38.010891,-25.690934)"
-       style="opacity:0.716814;fill:url(#pattern8);fill-opacity:1;filter:url(#filter6)">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.7481px;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke:none;stroke-width:0.587575;stroke-dasharray:none;stroke-opacity:1"
-         x="38.377254"
-         y="85.690163"
-         id="text45-1-2-58-8"
-         transform="scale(1.1403398,0.8769316)"><tspan
-           sodipodi:role="line"
-           id="tspan45-23-6-7-0"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.587575"
-           x="38.377254"
-           y="85.690163" /><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.587575"
-           id="tspan46-0-0-40-9"
-           x="38.377254"
-           y="147.87529">F</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.9609px;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke:none;stroke-width:0.531034;stroke-dasharray:none;stroke-opacity:1"
-         x="33.865719"
-         y="49.863434"
-         id="text45-0-8-2"
-         transform="scale(1.0381903,0.96321454)"><tspan
-           sodipodi:role="line"
-           id="tspan45-5-32-6"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.531034"
-           x="33.865719"
-           y="49.863434" /><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.531034"
-           id="tspan46-28-66-8"
-           x="33.865719"
-           y="106.06456">N</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.0907px;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke:none;stroke-width:0.532567;stroke-dasharray:none;stroke-opacity:1"
-         x="50.995857"
-         y="118.47942"
-         id="text45-65-2-06-0"
-         transform="scale(1.1682569,0.85597612)"><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.532567"
-           id="tspan46-4-1-6-3"
-           x="50.995857"
-           y="118.47942">o</tspan></text>
-      <rect
-         style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.0315865"
-         id="rect53-0-5-3-1"
-         width="0.32230687"
-         height="0.12781133"
-         x="62.68343"
-         y="101.57484" />
-      <rect
-         style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.684733"
-         id="rect49-3-99-6"
-         width="2.4895427"
-         height="26.584759"
-         x="57.845631"
-         y="75.134636" />
-      <g
-         id="g54-5-8-9"
-         transform="translate(-45.559291,-25.691827)"
-         style="fill:url(#pattern8);fill-opacity:1">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.5041px;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';opacity:1;fill:url(#pattern8);fill-opacity:1;stroke:none;stroke-width:0.537449;stroke-dasharray:none;stroke-opacity:1"
-           x="105.65377"
-           y="-140.55466"
-           id="text45-7-8-4-6"
-           transform="scale(1.0555673,-0.9473579)"><tspan
-             sodipodi:role="line"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Soulside Betrayed';-inkscape-font-specification:'Soulside Betrayed';fill:url(#pattern8);fill-opacity:1;stroke-width:0.537449"
-             id="tspan46-2-4-47-4"
-             x="105.65377"
-             y="-140.55466">e</tspan></text>
-        <rect
-           style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
-           id="rect50-0-8-2"
-           width="2.222806"
-           height="13.247924"
-           x="114.16762"
-           y="137.63614" />
-      </g>
-      <rect
-         style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.251666"
-         id="rect52-8-24-0"
-         width="1.0205278"
-         height="47.685654"
-         x="61.571949"
-         y="85.714607" />
-      <rect
-         style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
-         id="rect53-7-3-1"
-         width="1.111403"
-         height="2.600683"
-         x="60.468555"
-         y="96.806999" />
-      <rect
-         style="fill:url(#pattern8);fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
-         id="rect54-6-28-4"
          width="2.3117182"
          height="1.9560692"
          x="60.068447"

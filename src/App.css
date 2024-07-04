@@ -24,6 +24,7 @@ body, html, #root, .App {
   position: fixed;
   top: 0;
   z-index: 1000; /* Ensure it's above other content */
+  height: 100px; /* Adjust this value based on your navbar height */
 }
 
 .logo {
@@ -40,10 +41,11 @@ body, html, #root, .App {
   flex-grow: 1;
   width: 100%; /* Ensure content takes up full width */
   max-width: 100%; /* Ensure content doesn't exceed viewport width */
-  padding: 0px; /* Example: Add padding around content */
+  padding: 60px 0 0; /* Adjust this value based on your navbar height */
   box-sizing: border-box; /* Ensure padding is included in width */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
+
 
 .content-block {
   max-width: 1000px; /* Adjust as needed for your layout */
@@ -57,7 +59,8 @@ body, html, #root, .App {
 }
 
 .home-pic {
-  margin-top: 20px; /* Adjust top margin if needed */
+  margin-top: 0px; /* Adjust top margin if needed */
+  width: 100%;
   max-width: 100%; /* Ensure images are responsive */
   height: auto;
 }
@@ -80,12 +83,20 @@ body, html, #root, .App {
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
 }
 
+.day-text-white {
+  font-size: 8rem; /* Adjust the font sizes as needed */
+  margin-bottom: 30px; /* Adjust the spacing between elements */
+  text-align: center;
+  font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+}
+
 .big-text-red {
   color: red;
   font-size: 6rem; /* Adjust the font size as needed */
-  margin-top: 0; /* Adjust the spacing between elements */
+  margin-top: 40px; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+  text-align: center;
 }
 
 .middle-text-grey {
@@ -96,11 +107,20 @@ body, html, #root, .App {
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
 }
 
+.middle-text-white {
+  color: white;
+  font-size: 4rem; /* Adjust the font size as needed */
+  margin-top: 0; /* Adjust the spacing between elements */
+  text-align: center;
+  font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+}
+
 .middle-text-red {
   color: red;
   font-size: 4rem; /* Adjust the font size as needed */
-  margin-top: 0; /* Adjust the spacing between elements */
+  margin-top: 40px; /* Adjust the spacing between elements */
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+  text-align: center;
 }
 
 /* Override scrollbar styles to hide them */

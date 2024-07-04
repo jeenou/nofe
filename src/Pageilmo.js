@@ -1,7 +1,7 @@
-// PageRAQ.js
+// PageIlmo.js
 import React from 'react';
 
-const PageRAQ = () => {
+const PageIlmo = () => {
   return (
     <div className="content">
       <img
@@ -11,11 +11,11 @@ const PageRAQ = () => {
       />
       <div className="content-block text-container">
         <p className="big-text-white">
-          <span>Rarely Asked Questions</span>
+          <strong>Ilmoittautuminen aukeaa<br /> su 7.7. klo 7:07 pm</strong>
         </p>
       </div>
     </div>
   );
 };
 
-export default PageRAQ;
+export default PageIlmo;

@@ -4,8 +4,13 @@ import './App.css'; // Import your global styles
 
 const PageHome = () => {
   return (
-    <div>
-      <div>
+    <div className="content">
+      <img
+        src={`${process.env.PUBLIC_URL}/pictures/nofelogo.svg`}
+        alt="Logo"
+        className="logo"
+      />
+      <div className="text-container">
         <p className="big-text">
           <span className="big-text-white">Never. Stop. The </span>
           <span className="big-text-red">Madness</span>

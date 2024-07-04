@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/pageohjelma">Ohjelma</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/pageraq">RAQ</Link> {/* RAQ link */}
+              <Link className="nav-link" to="/pageilmo">Ilmoittautuminen</Link> {/* RAQ link */}
             </li>
           </ul>
         </div>
