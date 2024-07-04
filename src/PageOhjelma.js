@@ -100,8 +100,8 @@ const PageOhjelma = () => {
         <p className="day-text-white">
           <span>Oheisohjelma</span>
         </p>
-        <p className="middle-text-red">
-          <span>Julkaistaan myöhemmin.</span>
+        <p>
+        <p><strong>Julkaistaan myöhemmin.</strong></p>
         </p>
       </div>
     </div>

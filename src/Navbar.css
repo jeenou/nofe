@@ -1,8 +1,8 @@
 /* Navbar.css */
 .navbar {
-  background-color: #000; /* Black background */
+  background-color: transparent; /* Make the navbar background transparent */
   color: #fff; /* White text */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: none; /* Remove box shadow */
   padding: 10px 20px;
   margin-top: 40px;
   margin-bottom: 40px; /* Small bottom margin */

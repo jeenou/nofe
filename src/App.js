@@ -1,15 +1,18 @@
+// App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import PageHome from "./PageHome";
 import PageFestival from "./PageFestival";
 import PageOhjelma from "./PageOhjelma";
-import PageIlmo from "./Pageilmo"; // Ensure this matches the filename exactly
+import PageIlmo from "./Pageilmo";
+import ScrollToTop from "./ScrollToTop"; // Import the ScrollToTop component
 import "./App.css"; // Import your global styles
 
 const App = () => {
   return (
     <Router basename="/nofe">
+      <ScrollToTop /> {/* Add ScrollToTop component */}
       <div className="App">
         <Navbar className="navbar" />
         <div className="content">
