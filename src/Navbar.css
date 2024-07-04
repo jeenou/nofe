@@ -45,7 +45,21 @@
 /* Hide the navbar and show the dropdown menu on smaller screens */
 @media (max-width: 768px) {
   .navbar {
-    display: none; /* Hide the navbar on smaller screens */
+    display: flex; /* Ensure navbar is flexbox */
+    background-color: transparent; /* Make the navbar background transparent */
+    box-shadow: none; /* Remove box shadow */
+    padding: 10px 20px;
+    margin-top: 0; /* Adjust top margin */
+    margin-bottom: 0; /* Adjust bottom margin */
+  }
+
+  .navbar-toggler {
+    background-color: transparent; /* Make the toggler button transparent */
+    border: none; /* Remove border */
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2855, 53, 47, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Customize the icon */
   }
 
   .dropdown-menu {
