@@ -24,6 +24,7 @@ body, html, #root, .App {
   justify-content: flex-start;
   min-height: 100vh;
   position: relative; /* Ensure relative positioning for child elements */
+  overflow: hidden;
 }
 
 .navbar {
@@ -49,7 +50,7 @@ body, html, #root, .App {
   flex-grow: 1;
   width: 100%; /* Ensure content takes up full width */
   max-width: 100%; /* Ensure content doesn't exceed viewport width */
-  padding: 60px 0 0; /* Adjust this value based on your navbar height */
+  padding: 60px 0 60px; /* Adjust this value based on your navbar height */
   box-sizing: border-box; /* Ensure padding is included in width */
   overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
@@ -62,7 +63,7 @@ body, html, #root, .App {
   box-sizing: border-box;
   font-size: 2rem;
   font-family: sans-serif;
-  text-align: justify;
+  text-align: justify; /* Default alignment */
 }
 
 .home-pic {
@@ -103,7 +104,6 @@ body, html, #root, .App {
   margin-top: 40px; /* Adjust the spacing between elements */
   text-align: center;
   font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
-  text-align: center;
 }
 
 .middle-text-grey {
@@ -183,5 +183,11 @@ body, html, #root, .App {
 
   .content-block {
     font-size: 1.5rem; /* Adjust font size for better readability */
+    text-align: left; /* Change text alignment for mobile */
+    margin-bottom: 60px; /* Ensure space at the bottom of the content */
+  }
+
+  .content {
+    padding-bottom: 60px; /* Ensure space at the bottom of the content */
   }
 }

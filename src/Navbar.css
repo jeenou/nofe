@@ -64,6 +64,8 @@
 
   .dropdown-menu {
     display: block; /* Show the dropdown menu on smaller screens */
+    background-color: #000; /* Ensure black background */
+    color: #fff; /* White text */
   }
 }
 
@@ -97,4 +99,5 @@
 /* Ensure dropdown menu is visible when opened */
 .dropdown-menu.open {
   display: block;
+  background-color: #000; /* Black background */
 }
