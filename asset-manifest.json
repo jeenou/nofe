@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nofe/static/css/main.d3a8c9d0.css",
+    "main.js": "/nofe/static/js/main.95f29753.js",
+    "static/js/787.74e52389.chunk.js": "/nofe/static/js/787.74e52389.chunk.js",
+    "index.html": "/nofe/index.html",
+    "main.d3a8c9d0.css.map": "/nofe/static/css/main.d3a8c9d0.css.map",
+    "main.95f29753.js.map": "/nofe/static/js/main.95f29753.js.map",
+    "787.74e52389.chunk.js.map": "/nofe/static/js/787.74e52389.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3a8c9d0.css",
+    "static/js/main.95f29753.js"
+  ]
+}
