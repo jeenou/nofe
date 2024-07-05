@@ -101,7 +101,9 @@ const PageOhjelma = () => {
           <span>Oheisohjelma</span>
         </p>
         <p>
+        <div class="center-text">
         <p><strong>Julkaistaan myöhemmin.</strong></p>
+        </div>
         </p>
       </div>
     </div>
