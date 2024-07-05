@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nofe/static/css/main.6959ce17.css",
-    "main.js": "/nofe/static/js/main.f2510d7a.js",
-    "static/js/787.74e52389.chunk.js": "/nofe/static/js/787.74e52389.chunk.js",
-    "static/media/Colchester.ttf": "/nofe/static/media/Colchester.b6eec102c4e8888191e1.ttf",
-    "index.html": "/nofe/index.html",
-    "main.6959ce17.css.map": "/nofe/static/css/main.6959ce17.css.map",
-    "main.f2510d7a.js.map": "/nofe/static/js/main.f2510d7a.js.map",
-    "787.74e52389.chunk.js.map": "/nofe/static/js/787.74e52389.chunk.js.map"
+    "main.css": "http://nousiaistenfestarit.fi/nofe/static/css/main.270dd79f.css",
+    "main.js": "http://nousiaistenfestarit.fi/nofe/static/js/main.ebe93385.js",
+    "static/js/787.74e52389.chunk.js": "http://nousiaistenfestarit.fi/nofe/static/js/787.74e52389.chunk.js",
+    "static/media/Colchester.ttf": "http://nousiaistenfestarit.fi/nofe/static/media/Colchester.b6eec102c4e8888191e1.ttf",
+    "index.html": "http://nousiaistenfestarit.fi/nofe/index.html",
+    "main.270dd79f.css.map": "http://nousiaistenfestarit.fi/nofe/static/css/main.270dd79f.css.map",
+    "main.ebe93385.js.map": "http://nousiaistenfestarit.fi/nofe/static/js/main.ebe93385.js.map",
+    "787.74e52389.chunk.js.map": "http://nousiaistenfestarit.fi/nofe/static/js/787.74e52389.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6959ce17.css",
-    "static/js/main.f2510d7a.js"
+    "static/css/main.270dd79f.css",
+    "static/js/main.ebe93385.js"
   ]
 }
