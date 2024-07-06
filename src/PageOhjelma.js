@@ -15,7 +15,7 @@ const PageOhjelma = () => {
           <span>Perjantai</span>
         </p>
         <p className="big-text-red">
-          <span className="big-text-red">Limu Blues Boys & Girls</span>
+          <span className="big-text-red">Limu Blues boys & girls</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti1.svg`}
@@ -74,7 +74,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-          <span className="big-text-red">The Hepolampi Music Group</span>
+          <span className="big-text-red">The Hepolampi music group</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/la-artisti3.svg`}
