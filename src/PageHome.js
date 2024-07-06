@@ -12,8 +12,8 @@ const PageHome = () => {
       />
       <div className="text-container">
         <p className="big-text">
-          <span className="big-text-white">Never. Stop. The </span>
-          <span className="big-text-red">Madness</span>
+          <span className="mad-text-white">Never. Stop. The </span>
+          <span className="mad-text-red">Madness</span>
         </p>
         <p className="middle-text">
           <span className="middle-text-grey">9.-11.8.2024</span>

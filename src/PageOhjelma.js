@@ -31,7 +31,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-          <span className="big-text-red">YMPYR</span>
+          <span className="big-text-red">Ympyr</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti3.svg`}
@@ -39,7 +39,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-          <span className="big-text-red">AONB feat Häsä88</span>
+          <span className="big-text-red">A One Night Band feat Häsä88</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti4.svg`}

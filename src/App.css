@@ -6,6 +6,21 @@
   src: url('/src/fonts/Colchester.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Canterbury';
+  src: url('/src/fonts/Canterbury.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hemswaldpost';
+  src: url('/src/fonts/HelmswaldPost.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Angelwish';
+  src: url('/src/fonts/Angelwish.ttf') format('truetype');
+}
+
 /* Global Styles */
 body, html, #root, .App {
   background-color: black;
@@ -86,6 +101,13 @@ body, html, #root, .App {
 }
 
 .big-text-white {
+  font-size: 6rem; /* Adjust the font sizes as needed */
+  margin-top: 0; /* Adjust the spacing between elements */
+  text-align: center;
+  font-family: 'Angelwish', Arial, sans-serif; /* Apply the same font */
+}
+
+.mad-text-white {
   font-size: 8rem; /* Adjust the font sizes as needed */
   margin-top: 0; /* Adjust the spacing between elements */
   text-align: center;
@@ -100,6 +122,14 @@ body, html, #root, .App {
 }
 
 .big-text-red {
+  color: red;
+  font-size: 6rem; /* Adjust the font size as needed */
+  margin-top: 40px; /* Adjust the spacing between elements */
+  text-align: center;
+  font-family: 'Angelwish', Arial, sans-serif; /* Apply the same font */
+}
+
+.mad-text-red {
   color: red;
   font-size: 8rem; /* Adjust the font size as needed */
   margin-top: 40px; /* Adjust the spacing between elements */
@@ -127,7 +157,7 @@ body, html, #root, .App {
   color: red;
   font-size: 4rem; /* Adjust the font size as needed */
   margin-top: 40px; /* Adjust the spacing between elements */
-  font-family: 'Colchester', Arial, sans-serif; /* Apply the same font */
+  font-family: 'Canterbury', Arial, sans-serif; /* Apply the same font */
   text-align: center;
 }
 
