@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import PageHome from "./PageHome";
 import PageFestival from "./PageFestival";
@@ -11,7 +11,7 @@ import "./App.css"; // Import your global styles
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <ScrollToTop /> {/* Add ScrollToTop component */}
       <div className="App">
         <Navbar className="navbar" />
@@ -27,7 +27,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
