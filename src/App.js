@@ -11,7 +11,7 @@ import "./App.css"; // Import your global styles
 
 const App = () => {
   return (
-    <Router basename="/nofe">
+    <Router>
       <ScrollToTop /> {/* Add ScrollToTop component */}
       <div className="App">
         <Navbar className="navbar" />
