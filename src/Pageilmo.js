@@ -1,5 +1,5 @@
-// PageIlmo.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const PageIlmo = () => {
   return (
@@ -15,6 +15,11 @@ const PageIlmo = () => {
         </p>
       </div>
       <p>Ilmoittautumislinkki julkistetaan tällä sivulla.</p>
+      <div className="mobile-links"> {/* Add a container for mobile links */}
+        <Link className="big-text-red mobile-link" to="/">Home</Link>
+        <Link className="big-text-red mobile-link" to="/pagefestival">Festivaali</Link>
+        <Link className="big-text-red mobile-link" to="/pageohjelma">Ohjelma</Link>
+      </div>
     </div>
   );
 };

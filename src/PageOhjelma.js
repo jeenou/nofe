@@ -1,5 +1,5 @@
-// PageOhjelma.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import "./App.css"; // Import your global styles
 
 const PageOhjelma = () => {
@@ -15,7 +15,7 @@ const PageOhjelma = () => {
           <span>Perjantai</span>
         </p>
         <p className="big-text-red">
-        <span className="big-text-red">Limu Blues Boys & Girls</span>
+          <span className="big-text-red">Limu Blues Boys & Girls</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti1.svg`}
@@ -23,7 +23,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">Los Horos</span>
+          <span className="big-text-red">Los Horos</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti2.svg`}
@@ -31,7 +31,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">YMPYR</span>
+          <span className="big-text-red">YMPYR</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti3.svg`}
@@ -39,7 +39,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">AONB feat Häsä88</span>
+          <span className="big-text-red">AONB feat Häsä88</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti4.svg`}
@@ -47,7 +47,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">Wanha Harppu</span>
+          <span className="big-text-red">Wanha Harppu</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/pe-artisti5.svg`}
@@ -58,7 +58,7 @@ const PageOhjelma = () => {
           <span>Lauantai</span>
         </p>
         <p className="big-text-red">
-        <span className="big-text-red">Nuna</span>
+          <span className="big-text-red">Nuna</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/la-artisti1.svg`}
@@ -66,7 +66,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">äM</span>
+          <span className="big-text-red">äM</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/la-artisti2.svg`}
@@ -74,7 +74,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">The Hepolampi Music Group</span>
+          <span className="big-text-red">The Hepolampi Music Group</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/la-artisti3.svg`}
@@ -82,7 +82,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">Sodamens Union</span>
+          <span className="big-text-red">Sodamens Union</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/la-artisti5.svg`}
@@ -90,7 +90,7 @@ const PageOhjelma = () => {
           className="home-pic"
         />
         <p className="big-text-red">
-        <span className="big-text-red">Closed Stage</span>
+          <span className="big-text-red">Closed Stage</span>
         </p>
         <img
           src={`${process.env.PUBLIC_URL}/pictures/closedstage.svg`}
@@ -100,11 +100,14 @@ const PageOhjelma = () => {
         <p className="day-text-white">
           <span>Oheisohjelma</span>
         </p>
-        <p>
-        <div class="center-text">
-        <p><strong>Julkaistaan myöhemmin.</strong></p>
+        <div className="center-text">
+          <p><strong>Julkaistaan myöhemmin.</strong></p>
         </div>
-        </p>
+      </div>
+      <div className="mobile-links"> {/* Add a container for mobile links */}
+        <Link className="big-text-red mobile-link" to="/">Home</Link>
+        <Link className="big-text-red mobile-link" to="/pagefestival">Festivaali</Link>
+        <Link className="big-text-red mobile-link" to="/pageilmo">Ilmoittautuminen</Link>
       </div>
     </div>
   );
