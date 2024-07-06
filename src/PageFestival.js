@@ -19,15 +19,16 @@ const PageFestival = () => {
         <p className="big-text-red">
         <span className="big-text-red">Liput</span>
         </p>
-        <p><strong>VIP-LIPPU 65/hkl € (pe-su, sisältää majoituksen)</strong></p>
-        <p>VIP-lipulla saat VIP-passin, jolla saat ohittaa minkä tahansa vessajonon, pääset erityiselle VIP-alueelle yleisössä, bäkkärille tapaamaan artisteja, sekä nimmarin itse valitsemaltasi artistilta. Ostaessasi VIP-lipun kavereidesi kanssa pääset valitsemaan sisänukkumahuoneista mieleisesi jos sopivan kokoisia huoneita on vielä vapaana. Aamulla mimosa-tarjoilu suoraan sänkyyn, ja mystinen tarot-luenta mystiseen aikaan kun sitä vähiten odotat. VIP-lipulla tuet toki myös järjestäjäosastoa &lt;3</p>
-
         <p>
         <strong>Pe-su:</strong> 50€<br />
-        <strong>Pe-la:</strong> 30€ (yksi yömajoittuminen)<br />
-        <strong>La-su:</strong> 25€ (yksi majoittuminen)<br />
+        <strong>Pe-la:</strong> 30€ (yhden yön majoittuminen)<br />
+        <strong>La-su:</strong> 25€ (yhden yön majoittuminen)<br />
         <strong>Käväsen vuan-lippu pe tai la:</strong> 20€ (ei majoittumista)<br />
         <strong>Sisänukkumapaikka (sänky tai patja):</strong> 5€
+        <br /><br />
+        <p><strong>VIP-LIPPU 60/hkl € (pe-su, sisältää majoituksen)</strong></p>
+        <p>VIP-lipulla saat VIP-passin, jolla saat ohittaa minkä tahansa vessajonon, pääset erityiselle VIP-alueelle yleisössä sekä bäkkärille tapaamaan artisteja. Ostaessasi VIP-lipun kavereidesi kanssa pääset valitsemaan sisänukkumahuoneista mieleisesi jos sopivan kokoisia huoneita on vielä vapaana. Aamulla mimosa-tarjoilu suoraan sänkyyn, ja mystinen tarot-luenta vielä mystisempään aikaan kun sitä vähiten odotat. VIP-lipulla tuet toki myös järjestäjäosastoa &lt;3</p>
+
       </p>
 
 
@@ -45,7 +46,7 @@ const PageFestival = () => {
         <p className="big-text-red">
         <span className="big-text-red">Kyydit</span>
         </p>
-        <p>Festaripaikka sijaitsee 6,5 kilometrin päässä Hämeenlinnan rautatieasemasta. Festareille tulee kyytiexcel, johon voit ilmoittaa oman festareille suuntaavan autosi. Lisäksi pyritään hakemaan porukkaa Hämeenlinnan asemalta junilta sekä perjantaina, että lauantaina. Samaan kyytiexceliin voit merkata junasi saapumisajan ja kyytitarpeen. Lisäksi ehdottomasti voi suositella pyöräilemistä rautatieasemalta huvilalle, sillä reitti on melekosen uppee! Kyytiexceliin voit merkata myös tarpeen pelkkien tavaroidesi kuskaamiseen festaripaikalle, jos pyöräily ilman tavaralastia houkuttelee.</p>
+        <p>Festaripaikka sijaitsee 6,5 kilometrin päässä Hämeenlinnan rautatieasemasta. Festareille tulee kyytiexcel, johon voit ilmoittaa oman festareille suuntaavan autosi. Lisäksi pyritään hakemaan porukkaa Hämeenlinnan asemalta junilta sekä perjantaina että lauantaina. Samaan kyytiexceliin voit merkata junasi saapumisajan ja kyytitarpeen. Lisäksi ehdottomasti voi suositella pyöräilemistä rautatieasemalta huvilalle, sillä reitti on melekosen uppee! Kyytiexceliin voit merkata myös tarpeen pelkkien tavaroidesi kuskaamiseen festaripaikalle, jos pyöräily ilman tavaralastia houkuttelee.</p>
 
         <p className="big-text-red">
         <span className="big-text-red">Ruokailu</span>

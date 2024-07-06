@@ -14,7 +14,7 @@ body, html, #root, .App {
   padding: 0;
   height: 100%;
   font-family: 'Colchester', Arial, sans-serif; /* Default font for body */
-  overflow: hidden; /* Hide both vertical and horizontal scrollbars */
+  overflow: auto; /* Enable scrolling */
 }
 
 .App {
@@ -24,7 +24,6 @@ body, html, #root, .App {
   justify-content: flex-start;
   min-height: 100vh;
   position: relative; /* Ensure relative positioning for child elements */
-  overflow: hidden;
 }
 
 .navbar {
@@ -193,5 +192,30 @@ body, html, #root, .App {
 
   .content {
     padding-bottom: 60px; /* Ensure space at the bottom of the content */
+  }
+
+  .mobile-links { /* Add styles for mobile links */
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .mobile-link {
+    display: block;
+    color: red;
+    font-size: 2.5rem;
+    margin: 10px 0;
+    text-decoration: none;
+    font-family: 'Colchester', Arial, sans-serif;
+  }
+
+  .mobile-link:hover {
+    color: white; /* Change color on hover */
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-links {
+    display: none; /* Hide mobile links on larger screens */
   }
 }

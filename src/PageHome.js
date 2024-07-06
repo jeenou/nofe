@@ -1,5 +1,5 @@
-// PageHome.js
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './App.css'; // Import your global styles
 
 const PageHome = () => {
@@ -24,6 +24,11 @@ const PageHome = () => {
         alt="Home"
         className="home-pic"
       />
+      <div className="mobile-links"> {/* Add a container for mobile links */}
+        <Link className="big-text-red mobile-link" to="/pagefestival">Festivaali</Link>
+        <Link className="big-text-red mobile-link" to="/pageohjelma">Ohjelma</Link>
+        <Link className="big-text-red mobile-link" to="/pageilmo">Ilmoittautuminen</Link>
+      </div>
     </div>
   );
 };

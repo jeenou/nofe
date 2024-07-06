@@ -11,7 +11,7 @@ const PageIlmo = () => {
       />
       <div className="content-block text-container">
         <p className="big-text-white">
-          Ilmoittautuminen aukeaa<br /> su 7.7. klo 7:07 pm
+          Ilmoittautuminen aukeaa<br /> ti 9.7. klo 18:00
         </p>
       </div>
       <p>Ilmoittautumislinkki julkistetaan tällä sivulla.</p>
