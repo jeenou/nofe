@@ -10,13 +10,9 @@ const PageIlmo = () => {
         className="logo"
       />
       <div className="content-block text-container">
-        <p className="big-text-white">
-          Ilmoittautuminen aukeaa<br /> ti 9.7. klo 18:00
-        </p>
       </div>
-      <p>Ilmoittautumislinkki julkistetaan tällä sivulla.</p>
       <a href="https://forms.gle/jN7dybmQt7NU1JzM7" className="big-text-red">
-        Ilmoittaudu Festareille tästä!
+        Ilmoittaudu Festareille tästä 9.7. klo 18:00 alkaen!
       </a>
       <div className="mobile-links"> {/* Add a container for mobile links */}
         <Link className="big-text-red mobile-link" to="/">Home</Link>
