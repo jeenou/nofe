@@ -15,6 +15,9 @@ const PageIlmo = () => {
         </p>
       </div>
       <p>Ilmoittautumislinkki julkistetaan tällä sivulla.</p>
+      <a href="https://forms.gle/jN7dybmQt7NU1JzM7" className="big-text-red">
+        Ilmoittaudu Festareille tästä!
+      </a>
       <div className="mobile-links"> {/* Add a container for mobile links */}
         <Link className="big-text-red mobile-link" to="/">Home</Link>
         <Link className="big-text-red mobile-link" to="/pagefestival">Festivaali</Link>
