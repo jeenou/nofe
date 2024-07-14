@@ -81,7 +81,7 @@ const PageFestival = () => {
         <p className="big-text-red">
           <span className="big-text-red">Kylpy</span>
         </p>
-        <p>Festaripaikka sijaitsee järven rannassa ja mestoilla on myös kaksi pegunlämmintä paljua, sekä kaksi saunaa. Festareilla on uimapukupakko paljussa ja järvessä, saunassa ja pesutiloissa alastomuus on lähtökohtaisesti ok, mutta kunnioitathan myös muiden festarivieraiden toiveita. Oma pyyhe mukaan ja saunatiloihin ei lasipulloja. Kaikki saunat ja paljut ovat sekavuoroja.</p>
+        <p>Festaripaikka sijaitsee järven rannassa ja mestoilla on myös pegunlämmin palju, sekä iso sauna. Festareilla on uimapukupakko paljussa ja järvessä, saunassa ja pesutiloissa alastomuus on lähtökohtaisesti ok, mutta kunnioitathan myös muiden festarivieraiden toiveita. Oma pyyhe mukaan ja saunatiloihin ei lasipulloja. Kaikki vuorot saunassa ja paljussa ovat sekavuoroja.</p>
 
         <p className="big-text-red">
           <span className="big-text-red">WC</span>
